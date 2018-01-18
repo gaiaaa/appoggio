@@ -1,0 +1,489 @@
+    1  ls
+    2  cd ..
+    3  ls
+    4  cd bin/
+    5  ls
+    6  ls /l
+    7  ls -l
+    8  clear
+    9  cd ..
+   10  ls
+   11  clear
+   12  locate elements
+   13  locate agent
+   14  locate murano-agent
+   15  locate murano><:"agent
+   16  locate murano_ange
+   17  locate murano_agent
+   18  locate elements
+   19  find _){}":?><
+   20  find / /type d -name contrib
+   21  locate contrib
+   22  ls
+   23  cd usr/share/murano-common/
+   24  ls
+   25  cd ..
+   26  ls
+   27  sudo pip install diskimage-builder
+   28  sudo apt-get install python-pip
+   29  locate murano-agent
+   30  sudo pip install diskimage-builder
+   31  pip install --upgrade pip
+   32  sudo pip install diskimage-builder
+   33  sudo apt-get install qemu-utils kpartx
+   34  locate murano-agent
+   35  locate murano
+   36  git
+   37  apt-get install git
+   38  ls
+   39  cd usr/bin/
+   40  ls
+   41  cd ..
+   42  ls
+   43  cd ..
+   44  clear
+   45  ls
+   46  locate python
+   47  git clone git://git.openstack.org/openstack/murano-agent
+   48  locate murano-agent
+   49  locate openstack
+   50  git clone git://git.openstack.org/openstack/murano-agent
+   51  find murano-agent
+   52  cd ./murano-agent/
+   53  neutron agent-list 
+   54  cd ..
+   55  ls
+   56  neutron agent-list 
+   57  cd ./murano-agent/
+   58  cd ..
+   59  sudo ELEMENTS
+   60  ls
+   61  cd home/
+   62  wget https://transfer.sh/ulbQx/57/kubernetes
+   63  ls
+   64  wget https://transfer.sh/ulbQx/57-kubernetes
+   65  wget https://transfer.sh/ab0CI/56-docker
+   66  ls
+   67  wget https://transfer.sh/ab0CI/56-docker
+   68  exit
+   69  wget https://transfer.sh/ab0CI/56-docker
+   70  wget https://transfer.sh/YGDoU/56-docker
+   71  xit
+   72  exit
+   73  ping 8.8.8.8
+   74  ls
+   75  cd ..
+   76  ls
+   77  cd home/
+   78  ls
+   79  wget https://transfer.sh/YGDoU/56-docker
+   80  wget https://transfer.sh/ulbQx/57-kubernetes
+   81  wget https://transfer.sh/fosLm/56-docker
+   82  wget https://transfer.sh/2HBI9/element/deps
+   83  wget https://transfer.sh/2HBI9/element-deps
+   84  ls
+   85  vim element-deps 
+   86  vim element-deps
+   87  ls
+   88  rm element-deps 
+   89  wget https://transfer.sh/2HBI9/element-deps
+   90  mkdir Kubernetes
+   91  ls
+   92  cd Kubernetes/
+   93  mkdir KubernetesCluster
+   94  cd KubernetesCluster/
+   95  mkdir elements
+   96  ls
+   97  cd elements/
+   98  cd ..
+   99  ls
+  100  cd ..
+  101  mv 57-kubernetes Kubernetes/KubernetesCluster/elements/install.d
+  102  ls
+  103  cd Kubernetes/KubernetesCluster/elements/
+  104  ls
+  105  cd install.d
+  106  rm install.d 
+  107  mkdir install.d
+  108  ls
+  109  cd install.d/
+  110  ls
+  111  cd ..
+  112  ls
+  113  locate 57-kubernetes
+  114  mkdir DockerStandaloneHost
+  115  cd DockerStandaloneHost/
+  116  mkdir elements
+  117  cd elements/
+  118  mkdir install.d
+  119  cd ..
+  120  ls
+  121  mv 56-docker DockerStandaloneHost/elements/install.d/
+  122  cd DockerStandaloneHost/elements/install.d/
+  123  lws
+  124  ls
+  125  cd ..
+  126  cd ./murano-agent
+  127  cd ..
+  128  cd ./murano-agent/
+  129  ls
+  130  sudo ELEMENTS_PATH=./murano-agent/contrib/elements:./DockerStandaloneHost/elements \ DIB_RELEASE=jessie DIB_CLOUD_INIT_DATASOURCES="Ec2, ConfigDrive, OpenStack" disk-image-create vm debian murano-agent-debian \ docker /o debian8-x64/docker
+  131  cd ..
+  132  ls
+  133  sudo ELEMENTS_PATH=./murano-agent/contrib/elements:./home/DockerStandaloneHost/elements \ DIB_RELEASE=jessie DIB_CLOUD_INIT_DATASOURCES="Ec2, ConfigDrive, OpenStack" disk-image-create vm debian murano-agent-debian \ docker /o debian8-x64/docker
+  134  sudo ELEMENTS_PATH=./murano-agent/contrib/elements:./home/DockerStandaloneHost/elements \ DIB_RELEASE=jessie DIB_CLOUD_INIT_DATASOURCES="Ec2, ConfigDrive, OpenStack" disk-image-create vm debian murano-agent-debian \ docker -o debian8-x64/docker
+  135  cd ./murano-agent/contrib/elements/
+  136  ls
+  137  cd murano-agent-debian/
+  138  ls
+  139  cd install.d/
+  140  ls
+  141  cd ..
+  142  ls
+  143  ls 
+  144  cd ..
+  145  locate murano-agent/
+  146  cd ./murano-agent/
+  147  cd contrib/elements/
+  148  cd murano-agent/install.d/
+  149  ls
+  150  cd ..
+  151  cd murano-agent-debian/
+  152  ls
+  153  cd install.d/
+  154  ls
+  155  locate murano-agent-debian
+  156  cd ..
+  157  cd .
+  158  cd ..
+  159  cd ./var/log/
+  160  ls
+  161  cd murano/
+  162  ls
+  163  cd ..
+  164  less syslog 
+  165  ls
+  166  less sudo.log 
+  167  ls
+  168  less dmesg
+  169  ls
+  170  cd ..
+  171  cd home/Kubernetes/KubernetesCluster/elements/install.d/
+  172  wget http://transfer.sh/5eUUD/57-kubernetes
+  173  ls
+  174  wget http://transfer.sh/5eUUD/57-kubernetes
+  175  cd ..
+  176  ls
+  177  wget http://transfer.sh/5eUUD/57-kubernetes
+  178  cd ..
+  179  cd var/log/
+  180  ls
+  181  cd ..
+  182  locate hystory
+  183  locate history
+  184  cd var/log/apt/
+  185  ls
+  186  less history.log 
+  187  history 200
+  188  cd ..
+  189  ls
+  190  cd home/
+  191  history > historyforprint.txt
+  192  ls
+  193  less historyforprint.txt 
+  194  ls$
+  195  sudo ELEMENTS_PATH=./murano-agent/contrib/elements:DockerStandaloneHost/elements \ DIB_RELEASE=jessie DIB_CLOUD_INIT_DATASOURCES="Ec2, ConfigDrive, OpenStack" disk-image-create vm debian murano-agent-debian \ docker -o debian8-x64/docker
+  196  sudo ELEMENTS_PATH=$murano-agent/contrib/elements:DockerStandaloneHost/elements \ DIB_RELEASE=jessie DIB_CLOUD_INIT_DATASOURCES="Ec2, ConfigDrive, OpenStack" disk-image-create vm debian murano-agent-debian \ docker -o debian8-x64/docker
+  197  less historyforprint.txt 
+  198  git status
+  199  cd ..
+  200  git status
+  201  git branch /r
+  202  git branch -r
+  203  git
+  204  git branch HEAD HEAD HEAD git rm
+  205  mkdir --help 
+  206  cd home/
+  207  sudo ELEMENTS_PATH=./murano-agent/contrib/elements:DockerStandaloneHost/elements
+  208  cd ./murano-agent/
+  209  cd ..
+  210  cd home/
+  211  ls
+  212  mkdir prova
+  213  cd prova/
+  214  git clone git://git.openstack.org/openstack/murano-agent
+  215  ls
+  216  cd murano-agent/
+  217  ls
+  218  cd ..
+  219  sudo ELEMENTS_PATH=home/murano-agent/contrib/elements:home&DockerStandaloneHost/elements \ DIB_RELEASE=jessie DIB_CLOUD_INIT_DATASOURCES="Ec2, ConfigDrive, OpenStack" disk-image-create vm debian murano-agent-debian \ docker -o debian8-x64/docker
+  220  sudo ELEMENTS_PATH=home/murano-agent/contrib/elements:home/DockerStandaloneHost/elements \ DIB_RELEASE=jessie DIB_CLOUD_INIT_DATASOURCES="Ec2, ConfigDrive, OpenStack" disk-image-create vm debian murano-agent-debian \ docker -o debian8-x64/docker
+  221  sudo ELEMENTS_PATH=home/prova/murano-agent/contrib/elements:home/DockerStandaloneHost/elements \ DIB_RELEASE=jessie DIB_CLOUD_INIT_DATASOURCES="Ec2, ConfigDrive, OpenStack" disk-image-create vm debian murano-agent-debian \ docker -o debian8-x64/docker
+  222  export ELEMENTS_PATH=home/prova/murano-agent/contrib/elements:home/DockerStandaloneHost/elements \ DIB_RELEASE=jessie DIB_CLOUD_INIT_DATASOURCES="Ec2, ConfigDrive, OpenStack" disk-image-create vm debian murano-agent-debian \ docker -o debian8-x64/docker
+  223  export ELEMENTS_PATH=home/prova/murano-agent/contrib/elements:home/DockerStandaloneHost/elements \ DIB_RELEASE=jessie DIB_CLOUD_INIT_DATASOURCES="Ec2, ConfigDrive, OpenStack" disk-image-create vm debian murano-agent-debian \ docker -o debian8-x64-docker
+  224  export ELEMENTS_PATH=home/prova/murano-agent/contrib/elements:home/DockerStandaloneHost/elements \ DIB_RELEASE=jessie DIB_CLOUD_INIT_DATASOURCES="Ec2, ConfigDrive, OpenStack" disk-image-create vm debian murano-agent-debian \ docker -o debian8-x64-docker.qcow
+  225  sudo ELEMENTS_PATH=home/prova/murano-agent/contrib/elements:home/DockerStandaloneHost/elements \ DIB_RELEASE=jessie DIB_CLOUD_INIT_DATASOURCES="Ec2, ConfigDrive, OpenStack" disk-image-create vm debian murano-agent-debian \ docker -o debian8-x64-docker
+  226  sudo ELEMENTS_PATH=home/prova/murano-agent/contrib/elements:home/DockerStandaloneHost/elements disk-image-create \ vm ubuntu murano-agent docker -o ubuntu14.04-x64-docker
+  227  cd home/
+  228  ls
+  229  history > historyforprint2.txt 
+  230  less historyforprint2.txt 
+  231  git branch -r
+  232  ls
+  233  cd prova/
+  234  ls
+  235  cd ..
+  236  mkdir prova2
+  237  cd prova2/
+  238  export GITDIR=~/git
+  239  ls
+  240  mkdir -p $GITDIR
+  241  ls
+  242  cd ..
+  243  ls
+  244  cd Kubernetes/KubernetesCluster/elements/install.d/
+  245  ls
+  246  wget http://transfer.sh/a51Gs/57-kubernetes
+  247  wget http://transfer.sh/o39mE/element/deps
+  248  wget http://transfer.sh/o39mE/element-deps
+  249  cd 
+  250  cd ..
+  251  ls
+  252  cd home/prova2/
+  253  ls
+  254  git clone git://git.openstack.org/murano
+  255  cd ..
+  256  ls
+  257  cd ..
+  258  cd etc/murano/
+  259  ls
+  260  cd ..
+  261  cd home/Kubernetes/KubernetesCluster/elements/install.d/
+  262  wget http://transfer.sh/o39mE/element-deps
+  263  wget http://transfer.sh/YMhxv/57-kubernetes
+  264  cd ..
+  265  cd home/prova
+  266  ls
+  267  export ELEMENTS_PATH=home/prova/murano-agent/contrib/elements:home/DockerStandaloneHost/elements
+  268  cd murano-agent/contrib/elements/
+  269  ls
+  270  cd murano-agent
+  271  ls
+  272  cd ..
+  273  cd DockerStandaloneHost/elements/
+  274  mkdir docker
+  275  ls
+  276  mv install.d docker
+  277  ls
+  278  cd docker/install.d/
+  279  ls
+  280  cd ..
+  281  sudo ELEMENTS_PATH=home/prova/murano-agent/contrib/elements:home/DockerStandaloneHost/elements disk-image-cre
+  282  s
+  283  ls
+  284  locate docker
+  285  ls
+  286  cd murano-agent/contrib/elements/murano-agent/install.d/
+  287  ls
+  288  cd ..
+  289  cd
+  290  ls
+  291  cd git/
+  292  ;s
+  293  ls
+  294  cd ..
+  295  ls
+  296  ls /l
+  297  ls -l
+  298  locate ubuntu14
+  299  cd ..
+  300  locate ubuntu14
+  301  locate ubuntu14.04-x64-docker
+  302  find ubuntu14.04-x64-docker
+  303  find /f ubuntu14.04-x64-docker
+  304  find -f ubuntu14.04-x64-docker
+  305  cd home/
+  306  ls
+  307  cd prova
+  308  ls
+  309  cd murano-agent/
+  310  ls
+  311  cd contrib/
+  312  ls
+  313  cd elements/
+  314  ls
+  315  cd murano-agent
+  316  ls
+  317  cd install.d/
+  318  ls
+  319  cd
+  320  ls
+  321  cd ..
+  322  ls
+  323  glance image-list
+  324  env admin
+  325  --os-admin
+  326  source openrc
+  327  . openrc admin admin
+  328  wget https://drive.google.com/drive/folders/1wOtSxZ85vuSJ5TPoedwefZTaT77Z7_BV
+  329  LS
+  330  ls
+  331  ls /a
+  332  ls -a
+  333  ls -l
+  334  cd ubuntu14.04-x64-docker.d/
+  335  ls
+  336  cd dib-manifests/
+  337  ls
+  338  ls /l
+  339  ls -l
+  340  file dib-manifest-dpkg-ubuntu14.04-x64-docker 
+  341  file dib_environment 
+  342  file dib_arguments 
+  343  cd ./etc
+  344  cd
+  345  cd ..
+  346  cd ubuntu14.04-x64-docker.d/dib-manifests/
+  347  ls
+  348  less dib-manifest-dpkg-ubuntu14.04-x64-docker 
+  349  d
+  350  cd
+  351  cd ..
+  352  ls
+  353  locate disk
+  354  locate qcow
+  355  locate qemu
+  356  locate .qemu
+  357  locate .qcow2
+  358  locate .qcow
+  359  cd home/
+  360  ls
+  361  history > historyforprint3.txt
+  362  cd  Kubernetes/KubernetesCluster/elements/install.d/
+  363  ls
+  364  wget http://transfer.sh/G53vw/57-kubernetes
+  365  wget http://drive.google.com/open?id=1TDDs8eTJ2Cj5WK-JbiKlEMrpWcyAhZEQ
+  366  wget http://drive.google.com/open?id=1TDDs8eTJ2Cj5Wk-JbiKlEMrpWcyAhZEQ
+  367  ls
+  368  less open\?id\=1TDDs8eTJ2Cj5Wk-JbiKlEMrpWcyAhZEQ open\?id\=1TDDs8eTJ2Cj5Wk-JbiKlEMrpWcyAhZEQ 
+  369  less open\?id\=1TDDs8eTJ2Cj5Wk-JbiKlEMrpWcyAhZEQ 
+  370  file open\?id\=1TDDs8eTJ2Cj5Wk-JbiKlEMrpWcyAhZEQ 
+  371  rm open\?id\=1TDDs8eTJ2Cj5Wk-JbiKlEMrpWcyAhZEQ 
+  372  ls
+  373  clean
+  374  clear
+  375  wget -O file http://drive.google.com/open?id=1HXysVhcRI5hyoDC2QHNK2POgC5jPUpYw
+  376  wget -O file http://drive.google.com/open?id=1HXysVhcRI5hyoDc2QHNK2POgC5jPUpYw
+  377  ls
+  378  file file
+  379  rm file 
+  380  wget --no-check-certificate http://drive.google.com/open?id=1HXysVhcRI5hyoDc2QHNK2POgC5jPUpYw -O 57-kubernetes
+  381  sudoooo ELEMENTS_PATH=home/prova/murano-agent/contrib/elements:home/DockerStandaloneHost/elements disk-image-create \ vm ubuntu murano-agent docker -o ubuntu14.04-x64-docker
+  382  cd ..
+  383  mkdir kubernetes
+  384  mkdir docker
+  385  vm install.d/57-kubernetes kubernetes/
+  386  mv install.d/57-kubernetes kubernetes/
+  387  ls
+  388  mv install.d/ kubernetes/
+  389  ls
+  390  cd kubernetes
+  391  ls
+  392  cd install.d/
+  393  ls
+  394  cd ..
+  395  mv 57-kubernetes install.d/
+  396  cd ..
+  397  ls
+  398  cd ..
+  399  ls
+  400  cd elements/
+  401  cd docker/
+  402  ls
+  403  cd ..
+  404  cd
+  405  cd ..
+  406  mv home/DockerStandaloneHost/elements/docker/install.d/56-docker home/Kubernetes/KubernetesCluster/elements/docker/
+  407  cd home/Kubernetes/KubernetesCluster/elements/docker/
+  408  ls
+  409  mkdir install.d
+  410  mv 56-docker install.d/
+  411  cd
+  412  cd ..
+  413  sudo ELEMENTS_PATH=home/prova/murano-agent/contrib/elements:home/Kubernetes/elements disk-image-create \ vm ubuntu murano-agent docker kubernetes -o ubuntu14.04-x64-docker.qcow2
+  414  sudo ELEMENTS_PATH=home/prova/murano-agent/contrib/elements:home/Kubernetes/KubernetesCluster/elements disk-image-create \ vm ubuntu murano-agent docker kubernetes -o ubuntu14.04-x64-docker.qcow2
+  415  s
+  416  ls
+  417  rm 1wOtSxZ85vuSJ5TPoedwefZTaT77Z7_BV 
+  418  ls
+  419  cd home/Kubernetes/KubernetesCluster/elements/kubernetes/install.d/
+  420  ls
+  421  cd ..
+  422  cd ,
+  423  cd ..
+  424  cd .
+  425  cd ..
+  426  ls
+  427  cd .
+  428  cd ..
+  429  ls
+  430  cd murano-agent/
+  431  ls
+  432  cd muranoagent/
+  433  ls
+  434  cd
+  435  cd ..
+  436  locate .qcow2
+  437  exit
+  438  ls
+  439  cd git/
+  440  ls
+  441  cd ..
+  442  ls
+  443  cd ..
+  444  ls
+  445  cd ..
+  446  ls
+  447  cd home/Kubernetes/KubernetesCluster/elements/
+  448  cd
+  449  cd ..
+  450  cd home/
+  451  ls
+  452  mv element-deps Kubernetes/KubernetesCluster/elements/kubernetes/
+  453  cd Kubernetes/KubernetesCluster/elements/kubernetes/
+  454  ls
+  455  cd
+  456  cd ..
+  457  sudoooo ELEMENTS_PATH=home/prova/murano-agent/contrib/elements:home/Kubernetes/KubernetesCluster/elements disk-image-create \ vm ubuntu murano-agent docker kubernetes -o ubuntu14.04-x64-kubernetes
+  458  less home/Kubernetes/KubernetesCluster/elements/kubernetes/install.d/
+  459  less home/Kubernetes/KubernetesCluster/elements/kubernetes/install.d/57-kubernetes 
+  460  ping 185.216.24.82
+  461  cd home/Kubernetes/KubernetesCluster/elements/kubernetes/install.d/
+  462  rm 57-kubernetes 
+  463  cd
+  464  cd ..
+  465  ls
+  466  cd home/
+  467  ls
+  468  wget https://github.com/openstack/k8s-docker-suite-app-murano/tree/master/Kubernetes/KubernetesCluster/elements/kubernetes/install.d
+  469  ls
+  470  less historyforprint2
+  471  less historyforprint2.txt 
+  472  git clone https://github.com/openstack/k8s-docker-suite-app-murano/tree/master/Kubernetes/KubernetesCluster/elements/kubernetes/install.d
+  473  rm install.d 
+  474  git clone https://github.com/openstack/k8s-docker-suite-app-murano/tree/master/Kubernetes/KubernetesCluster/elements/kubernetes/install.d
+  475  wget https://github.com/openstack/k8s-docker-suite-app-murano/tree/master/Kubernetes/KubernetesCluster/elements/kubernetes/install.d/57-kubernetes
+  476  ls
+  477  less 57-kubernetes 
+  478  rm 57-kubernetes 
+  479  git clone git://github.com/openstack/k8s-docker-suite-app-murano/tree/master/Kubernetes/KubernetesCluster/elements/kubernetes/install.d/57-kubernetes
+  480  git clone git://github.com/openstack/k8s-docker-suite-app-murano/tree/master/Kubernetes/KubernetesCluster/elements/kubernetes/install.d
+  481  locate 57-kubernetes
+  482  exit
+  483  ls
+  484  cd ..
+  485  ls
+  486  cd home/
+  487  ls
+  488  history 
+  489  history > historyforprint4.txt
