@@ -1,0 +1,223 @@
+    1  mysql -u root -p
+    2  mysql -u root
+    3  exit
+    4  . admin-openrc
+    5  locate openrc
+    6  ls
+    7  less openrc
+    8  openstack user create --domain default --password-prompt magnum
+    9  openstack user create --os-username admin --os-auth-url http://192.168.101.2:5000 --domain default --password-prompt magnum
+   10  openstack user create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-domain-name default --password-prompt magnum
+   11  openstack user create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-domain-name default --domain default --password-prompt magnum
+   12  openstack user create --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-domain-name default --domain default --password-prompt magnum
+   13  openstack user create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-domain-name default --password-prompt magnum
+   14  openstack user create --os-domain-name default --password-prompt magnum
+   15  openstack user create --os-domain-name default --password-prompt magnum --os-username admin --os-auth-url http://192.168.101.2:5000/
+   16  $ . admin-openrc
+   17  openstack user create --domain default
+   18  openstack user create --domain default   --password-prompt magnum
+   19  openstack user create --domain default --password-prompt magnum
+   20  openstack user create --os-domain-name default --password-prompt magnum --os-username admin --os-auth-url http://192.168.101.2:5000
+   21  openstack user create --os-domain-name default --password-prompt magnum --os-username admin --os-auth-url http://192.168.101.2:5000 --domain default
+   22  ls
+   23  cd ..
+   24  cd ~/murano
+   25  cd ..
+   26  ls
+   27  cd ~/murano
+   28  locate murano
+   29  exit
+   30  mysql -u root
+   31  openstack user create --domain default --password-prompt magnum
+   32  openstack user create --domain default --password-prompt magnum --os-username admin
+   33* openstack user create --domain default --password-prompt magnum --os-username magnum --os-auth-url http://192.168.101.2:5000/
+   34  cd
+   35  less openrc 
+   36  openstack user create --domain default --password-prompt magnum --os-username admin --os-auth-url http://192.168.101.2:5000/
+   37  openstack user create --domain default --password-prompt magnum --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin
+   38  openstack user create --os-domain-name default --password-prompt magnum --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin
+   39  less openrc 
+   40  openstack role add --project service --user magnum admin
+   41  openstack role add --os-auth-url http://192.168.101.2:5000/ --os-project service --os-username magnum admin
+   42  openstack role add --os-project service --os-username magnum admin
+   43  openstack role add --project service --user magnum admin
+   44  openstack role add --os-auth-url http://192.168.101.2:5000/ --os-project-name service --os-username magnum admin
+   45  sudo openstack role add --os-auth-url http://192.168.101.2:5000/ --os-project-name service --os-username magnum admin
+   46  openstack role add --os-project-name service --os-username magnum admin
+   47* 
+   48  openstack role add --os-project-name service --os-username magnum admin
+   49  openstack role add --os-auth-url http://192.168.101.2:5000/ --os-project-name service --os-username magnum admin
+   50  openstack role add --os-project-name service --os-auth-url http://192.168.101.2:5000/ --os-username magnum admin
+   51  openstack role add --os-project-name service --os-username magnum admin --os-auth-url http://192.168.101.2:5000/
+   52  openstack role add --os-project-name service --os-username magnum --os-auth-url http://192.168.101.2:5000/ admin
+   53  exit
+   54  openstack role add --project service --user magnum admin
+   55  openstack role add --os-project-name service --os-auth-url http://192.168.101.2:5000/ --os-username magnum admin
+   56  openstack user list
+   57  openstack role add --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name service --os-domain-name default admin
+   58  LS
+   59  ls
+   60  cd ..
+   61  cd var/log/keystone/
+   62  ls
+   63  less keystone-admin.log
+   64  cd
+   65  cd ..
+   66  openstack role add --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name service --os-domain-name default admin
+   67  nova list
+   68  cd var/log/
+   69  ls
+   70  less keystone
+   71  cd keystone/
+   72  ls
+   73  cd ..
+   74  less keystone-all.log
+   75  openstack role add --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name service --os-domain-name default admin
+   76  less keystone-all.log
+   77  openstack role add --os-domain-name default --os-username neutron --os-auth-url http://192.168.101.2:5000/ --os-project-name service
+   78  openstack add role --project admin --user magnum admin
+   79  openstack role add --project admin --user magnum admin
+   80  openstack role add --os-username magnum --auth-url Missing parameter(s):   --os-project-name admin admin
+   81  Set a username with --os-username, OS_USERNAME, or auth.username
+   82  Set an authentication URL, with --os-auth-url, OS_AUTH_URL or auth.auth_url
+   83* 
+   84  openstack role add --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --os-domain-name default admin
+   85  cd ..
+   86  cd 
+   87  ls
+   88  cd ..
+   89  locate /horizon/
+   90  locate local_settings.py
+   91  cd usr/share/openstack-dashboard/
+   92  less
+   93  less local_settings.py
+   94  grep "IMD_USER_CREDENTIALS" local_settings.py
+   95  grep 'IMD_USER_CREDENTIALS' local_settings.py
+   96  grep "password" local_settings.py
+   97  grep "PASSWORD" local_settings.py
+   98  cd
+   99  cd ..
+  100  cd root/
+  101  openstack role add --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --os-domain-name default admin
+  102  openstack service create --name magnum --description "OpenStack Container Infrastructure Management Service" container-infra
+  103  openstack service create --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-domain-name default --description "OpenStack Container Infrastructure Management Service" container-infra
+  104  cd ..
+  105  cd etc/
+  106  ls
+  107  cd
+  108  openstack role add --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name service --os-domain-name default admin
+  109  openstack service create --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-domain-name default --description "OpenStack Container Infrastructure Management Service" container-infra
+  110  openstack --help
+  111  openstack role add --help
+  112  openstack user list
+  113  openstack role add --os-project-name service --os-user magnum admin
+  114  openstack role add --os-project-name service --os-user-id c8fbaceac7984814b86c51655941fc2b  admin
+  115  openstack role add --os-project-name service --os-user-id c8fbaceac7984814b86c51655941fc2b admin
+  116  openstack role add --os-project-name service --os-user-id c8fbaceac7984814b86c51655941fc2b --os-username magnum admin
+  117  openstack role add --os-project-name service --os-user-id c8fbaceac7984814b86c51655941fc2b --os-username magnum --os-auth-url http://192.168.101.2:5000/ admin
+  118  openstack role add --os-project-name service --os-user-id c8fbaceac7984814b86c51655941fc2b --os-username magnum --os-auth-url http://192.168.101.2:5000/
+  119  openstack role add --os-project-name admin --os-username magnum --os-auth-url http://192.168.101.2:5000/ admin
+  120  openstack user create --os-domain-name default --password-prompt magnum --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin
+  121  openstack add role --os-domain-name default --password-prompt magnum --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name service admin
+  122  openstack role add --os-domain-name default --password-prompt magnum --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name service admin
+  123  openstack project list
+  124  locate local.conf
+  125  ls
+  126  cd ..
+  127  less usr/share/doc/adduser/examples/adduser.local.conf
+  128  grep "password" usr/share/doc/adduser/examples/adduser.local.conf
+  129  grep "PASSWORD" usr/share/doc/adduser/examples/adduser.local.conf
+  130  grep "password" etc/keystone/keystone.conf 
+  131  less etc/keystone/keystone.conf 
+  132  grep "service" etc/keystone/keystone.conf 
+  133  grep "ADMIN_TOKEN" etc/keystone/keystone.conf 
+  134  openstack project list
+  135  openstack add role --os-domain-name default --password-prompt magnum --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name service admin
+  136  openstack role add --os-domain-name default --password-prompt magnum --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name service admin
+  137  locate policy.json
+  138  less usr/share/openstack-dashboard/openstack_dashboard/conf/keystone_policy.json 
+  139  openstack role add --os-domain-name default --password-prompt magnum --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name admin admin
+  140  openstack role add --os-domain-name default --password-prompt magnum --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name admin
+  141  openstack role add --os-domain-name default --password-prompt magnum --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name service admin
+  142  openstack role add --user magnum project admin
+  143  openstack role add --user magnum service admin
+  144  openstack role add --help
+  145  openstack role add --user magnum --project magnum admin
+  146  neutron net-list
+  147  env | grep -i OS
+  148  env
+  149  set
+  150  vim env
+  151  env
+  152  locate env
+  153  neutron net-list
+  154  cd
+  155  less openrc 
+  156  openstack role add --os-domain-name default --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name admin
+  157  cd ..
+  158  cd etc/
+  159  ls
+  160  less hostname 
+  161  cd keystone/
+  162  less keystone.conf 
+  163  grep "OS" keystone.conf 
+  164  grep "export" keystone.conf 
+  165  cd ..
+  166  openstack role add --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --project service --name murano admin
+  167  openstack role add --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --project service --user murano admin
+  168  openstack user create --os-domain-name default --password-prompt magnum --domain default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin
+  169  openstack role add --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --project service --user murano admin
+  170* openstack role add --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin 
+  171  openstack role add --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --project service --user murano admin
+  172  openstack service create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --name magnum --description "OpenStack Container Infrastructure Management Service" container-infra
+  173  openstack service create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra public http://CONTROLLER_IP:9511/v1
+  174  openstack endpoint create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra public http://CONTROLLER_IP:9511/v1
+  175  openstack endpoint create --region RegionOne container-infra public http://CONTROLLER_IP:9511/v1
+  176  openstack endpoint create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra public http://192.168.101.2:9511/v1
+  177  openstack endpoint create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra --publicurl http://CONTROLLER_IP:9511/v1
+  178  openstack endpoint create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra --url http://CONTROLLER_IP:9511/v1
+  179  openstack endpoint create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra --publicurl http://192.168.101.2:9511/v1
+  180  openstack endpoint create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra --internalurl http://192.168.101.2:9511/v1
+  181  openstack endpoint create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra --publicurl http://192.168.101.2/v1 --internalurl http://192.168.101.2:9511/v1
+  182* openstack endpoint create --region
+  183  openstack endpoint create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra admin http://192.168.101.2/v1
+  184  openstack endpoint create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra admin http://192.168.101.2/v1 --publicurl http://192.168.101.2
+  185  openstack endpoint create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra admin http://192.168.101.2/v1 --publicurl http://192.168.101.2/v1
+  186  openstack domain create --descrption "Owns users and projects created by magnum" magnum
+  187  export OS_IDENTITY_API_VERSION=3
+  188  openstack domain
+  189  openstack domain create --description "Owns users and projects created by magnum" magnum
+  190  openstack domain create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --descrption Owns users and projects created by magnum" magnum
+  191  openstack domain create --description "Owns users and projects created by magnum" magnum
+  192  openstack domain create --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --descrption Owns users and projects created by magnum" magnum
+  193  openstack domain create --help
+  194  openstack domain create magnum
+  195  ls
+  196  cd
+  197  less openrc 
+  198  openstack --help
+  199  openstack domain create --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --descrption Owns users and projects created by magnum" magnum
+magnum
+  200  openstack domain --help
+  201  openstack domain list --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin
+  202  openstack domain create --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --descrption Owns users and projects created by magnum" magnum
+domain create magnum
+ddd
+  203  openstack domain create --descroption "Magnum" magnum
+  204  openstack domain create --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --descrption Owns users and projects created by magnum" --os-domain-name magnum
+  205  openstack domain create --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --descrption "Owns users and projects created by magnum" magnum
+  206  openstack domain create --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --descrption "Owns users and projects created by magnum" --os-domain-name magnum
+  207  openstack domain create --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --descrption "Owns users and projects created by magnum" magnum
+  208  openstack domain create --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin magnum
+  209  openstack domain list --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin
+  210  openstack user create --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --domain magnum --password-prompt magnum_domain_admin
+  211  openstack role add --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --domain magnum --user-domain magnum --user magnum_domain_admin admin
+  212  DEBIAN_FRONTEND=noninteractive apt-get install magnum-api magnum-conductor python-magnumclient
+  213  apt-get update
+  214  DEBIAN_FRONTEND=noninteractive apt-get install magnum-api magnum-conductor python-magnumclient
+  215* 
+  216  apt-get update
+  217  ls
+  218  cd ..
+  219  cd home/
+  220  history > history1.txt
