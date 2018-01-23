@@ -1,0 +1,781 @@
+    1  mysql -u root -p
+    2  mysql -u root
+    3  exit
+    4  . admin-openrc
+    5  locate openrc
+    6  ls
+    7  less openrc
+    8  openstack user create --domain default --password-prompt magnum
+    9  openstack user create --os-username admin --os-auth-url http://192.168.101.2:5000 --domain default --password-prompt magnum
+   10  openstack user create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-domain-name default --password-prompt magnum
+   11  openstack user create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-domain-name default --domain default --password-prompt magnum
+   12  openstack user create --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-domain-name default --domain default --password-prompt magnum
+   13  openstack user create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-domain-name default --password-prompt magnum
+   14  openstack user create --os-domain-name default --password-prompt magnum
+   15  openstack user create --os-domain-name default --password-prompt magnum --os-username admin --os-auth-url http://192.168.101.2:5000/
+   16  $ . admin-openrc
+   17  openstack user create --domain default
+   18  openstack user create --domain default   --password-prompt magnum
+   19  openstack user create --domain default --password-prompt magnum
+   20  openstack user create --os-domain-name default --password-prompt magnum --os-username admin --os-auth-url http://192.168.101.2:5000
+   21  openstack user create --os-domain-name default --password-prompt magnum --os-username admin --os-auth-url http://192.168.101.2:5000 --domain default
+   22  ls
+   23  cd ..
+   24  cd ~/murano
+   25  cd ..
+   26  ls
+   27  cd ~/murano
+   28  locate murano
+   29  exit
+   30  mysql -u root
+   31  openstack user create --domain default --password-prompt magnum
+   32  openstack user create --domain default --password-prompt magnum --os-username admin
+   33  openstack user create --domain default --password-prompt magnum --os-username magnum --os-auth-url http://192.168.101.2:5000/
+   34  cd
+   35  less openrc 
+   36  openstack user create --domain default --password-prompt magnum --os-username admin --os-auth-url http://192.168.101.2:5000/
+   37  openstack user create --domain default --password-prompt magnum --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin
+   38  openstack user create --os-domain-name default --password-prompt magnum --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin
+   39  less openrc 
+   40  openstack role add --project service --user magnum admin
+   41  openstack role add --os-auth-url http://192.168.101.2:5000/ --os-project service --os-username magnum admin
+   42  openstack role add --os-project service --os-username magnum admin
+   43  openstack role add --project service --user magnum admin
+   44  openstack role add --os-auth-url http://192.168.101.2:5000/ --os-project-name service --os-username magnum admin
+   45  sudo openstack role add --os-auth-url http://192.168.101.2:5000/ --os-project-name service --os-username magnum admin
+   46  openstack role add --os-project-name service --os-username magnum admin
+   47  openstack role add --os-project-name service --os-username magnum admin
+   48  openstack role add --os-auth-url http://192.168.101.2:5000/ --os-project-name service --os-username magnum admin
+   49  openstack role add --os-project-name service --os-auth-url http://192.168.101.2:5000/ --os-username magnum admin
+   50  openstack role add --os-project-name service --os-username magnum admin --os-auth-url http://192.168.101.2:5000/
+   51  openstack role add --os-project-name service --os-username magnum --os-auth-url http://192.168.101.2:5000/ admin
+   52  exit
+   53  openstack role add --project service --user magnum admin
+   54  openstack role add --os-project-name service --os-auth-url http://192.168.101.2:5000/ --os-username magnum admin
+   55  openstack user list
+   56  openstack role add --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name service --os-domain-name default admin
+   57  LS
+   58  ls
+   59  cd ..
+   60  cd var/log/keystone/
+   61  ls
+   62  less keystone-admin.log
+   63  cd
+   64  cd ..
+   65  openstack role add --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name service --os-domain-name default admin
+   66  nova list
+   67  cd var/log/
+   68  ls
+   69  less keystone
+   70  cd keystone/
+   71  ls
+   72  cd ..
+   73  less keystone-all.log
+   74  openstack role add --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name service --os-domain-name default admin
+   75  less keystone-all.log
+   76  openstack role add --os-domain-name default --os-username neutron --os-auth-url http://192.168.101.2:5000/ --os-project-name service
+   77  openstack add role --project admin --user magnum admin
+   78  openstack role add --project admin --user magnum admin
+   79  openstack role add --os-username magnum --auth-url Missing parameter(s):   --os-project-name admin admin
+   80  Set a username with --os-username, OS_USERNAME, or auth.username
+   81  Set an authentication URL, with --os-auth-url, OS_AUTH_URL or auth.auth_url
+   82  openstack role add --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --os-domain-name default admin
+   83  cd ..
+   84  cd 
+   85  ls
+   86  cd ..
+   87  locate /horizon/
+   88  locate local_settings.py
+   89  cd usr/share/openstack-dashboard/
+   90  less
+   91  less local_settings.py
+   92  grep "IMD_USER_CREDENTIALS" local_settings.py
+   93  grep 'IMD_USER_CREDENTIALS' local_settings.py
+   94  grep "password" local_settings.py
+   95  grep "PASSWORD" local_settings.py
+   96  cd
+   97  cd ..
+   98  cd root/
+   99  openstack role add --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --os-domain-name default admin
+  100  openstack service create --name magnum --description "OpenStack Container Infrastructure Management Service" container-infra
+  101  openstack service create --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-domain-name default --description "OpenStack Container Infrastructure Management Service" container-infra
+  102  cd ..
+  103  cd etc/
+  104  ls
+  105  cd
+  106  openstack role add --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name service --os-domain-name default admin
+  107  openstack service create --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-domain-name default --description "OpenStack Container Infrastructure Management Service" container-infra
+  108  openstack --help
+  109  openstack role add --help
+  110  openstack user list
+  111  openstack role add --os-project-name service --os-user magnum admin
+  112  openstack role add --os-project-name service --os-user-id c8fbaceac7984814b86c51655941fc2b  admin
+  113  openstack role add --os-project-name service --os-user-id c8fbaceac7984814b86c51655941fc2b admin
+  114  openstack role add --os-project-name service --os-user-id c8fbaceac7984814b86c51655941fc2b --os-username magnum admin
+  115  openstack role add --os-project-name service --os-user-id c8fbaceac7984814b86c51655941fc2b --os-username magnum --os-auth-url http://192.168.101.2:5000/ admin
+  116  openstack role add --os-project-name service --os-user-id c8fbaceac7984814b86c51655941fc2b --os-username magnum --os-auth-url http://192.168.101.2:5000/
+  117  openstack role add --os-project-name admin --os-username magnum --os-auth-url http://192.168.101.2:5000/ admin
+  118  openstack user create --os-domain-name default --password-prompt magnum --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin
+  119  openstack add role --os-domain-name default --password-prompt magnum --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name service admin
+  120  openstack role add --os-domain-name default --password-prompt magnum --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name service admin
+  121  openstack project list
+  122  locate local.conf
+  123  ls
+  124  cd ..
+  125  less usr/share/doc/adduser/examples/adduser.local.conf
+  126  grep "password" usr/share/doc/adduser/examples/adduser.local.conf
+  127  grep "PASSWORD" usr/share/doc/adduser/examples/adduser.local.conf
+  128  grep "password" etc/keystone/keystone.conf 
+  129  less etc/keystone/keystone.conf 
+  130  grep "service" etc/keystone/keystone.conf 
+  131  grep "ADMIN_TOKEN" etc/keystone/keystone.conf 
+  132  openstack project list
+  133  openstack add role --os-domain-name default --password-prompt magnum --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name service admin
+  134  openstack role add --os-domain-name default --password-prompt magnum --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name service admin
+  135  locate policy.json
+  136  less usr/share/openstack-dashboard/openstack_dashboard/conf/keystone_policy.json 
+  137  openstack role add --os-domain-name default --password-prompt magnum --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name admin admin
+  138  openstack role add --os-domain-name default --password-prompt magnum --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name admin
+  139  openstack role add --os-domain-name default --password-prompt magnum --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name service admin
+  140  openstack role add --user magnum project admin
+  141  openstack role add --user magnum service admin
+  142  openstack role add --help
+  143  openstack role add --user magnum --project magnum admin
+  144  neutron net-list
+  145  env | grep -i OS
+  146  env
+  147  set
+  148  vim env
+  149  env
+  150  locate env
+  151  neutron net-list
+  152  cd
+  153  less openrc 
+  154  openstack role add --os-domain-name default --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name admin
+  155  cd ..
+  156  cd etc/
+  157  ls
+  158  less hostname 
+  159  cd keystone/
+  160  less keystone.conf 
+  161  grep "OS" keystone.conf 
+  162  grep "export" keystone.conf 
+  163  cd ..
+  164  openstack role add --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --project service --name murano admin
+  165  openstack role add --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --project service --user murano admin
+  166  openstack user create --os-domain-name default --password-prompt magnum --domain default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin
+  167  openstack role add --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --project service --user murano admin
+  168  openstack role add --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin 
+  169  openstack role add --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --project service --user murano admin
+  170  openstack service create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --name magnum --description "OpenStack Container Infrastructure Management Service" container-infra
+  171  openstack service create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra public http://CONTROLLER_IP:9511/v1
+  172  openstack endpoint create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra public http://CONTROLLER_IP:9511/v1
+  173  openstack endpoint create --region RegionOne container-infra public http://CONTROLLER_IP:9511/v1
+  174  openstack endpoint create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra public http://192.168.101.2:9511/v1
+  175  openstack endpoint create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra --publicurl http://CONTROLLER_IP:9511/v1
+  176  openstack endpoint create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra --url http://CONTROLLER_IP:9511/v1
+  177  openstack endpoint create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra --publicurl http://192.168.101.2:9511/v1
+  178  openstack endpoint create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra --internalurl http://192.168.101.2:9511/v1
+  179  openstack endpoint create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra --publicurl http://192.168.101.2/v1 --internalurl http://192.168.101.2:9511/v1
+  180  openstack endpoint create --region
+  181  openstack endpoint create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra admin http://192.168.101.2/v1
+  182  openstack endpoint create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra admin http://192.168.101.2/v1 --publicurl http://192.168.101.2
+  183  openstack endpoint create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --region RegionOne container-infra admin http://192.168.101.2/v1 --publicurl http://192.168.101.2/v1
+  184  openstack domain create --descrption "Owns users and projects created by magnum" magnum
+  185  export OS_IDENTITY_API_VERSION=3
+  186  openstack domain
+  187  openstack domain create --description "Owns users and projects created by magnum" magnum
+  188  openstack domain create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --descrption Owns users and projects created by magnum" magnum
+  189  openstack domain create --description "Owns users and projects created by magnum" magnum
+  190  openstack domain create --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --descrption Owns users and projects created by magnum" magnum
+  191  openstack domain create --help
+  192  openstack domain create magnum
+  193  ls
+  194  cd
+  195  less openrc 
+  196  openstack --help
+  197  openstack domain create --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --descrption Owns users and projects created by magnum" magnum
+  198  magnum
+  199  openstack domain --help
+  200  openstack domain list --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin
+  201  openstack domain create --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --descrption Owns users and projects created by magnum" magnum
+  202  domain create magnum
+  203  ddd
+  204  openstack domain create --descroption "Magnum" magnum
+  205  openstack domain create --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --descrption Owns users and projects created by magnum" --os-domain-name magnum
+  206  openstack domain create --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --descrption "Owns users and projects created by magnum" magnum
+  207  openstack domain create --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --descrption "Owns users and projects created by magnum" --os-domain-name magnum
+  208  openstack domain create --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --descrption "Owns users and projects created by magnum" magnum
+  209  openstack domain create --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin magnum
+  210  openstack domain list --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin
+  211  openstack user create --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --domain magnum --password-prompt magnum_domain_admin
+  212  openstack role add --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --domain magnum --user-domain magnum --user magnum_domain_admin admin
+  213  DEBIAN_FRONTEND=noninteractive apt-get install magnum-api magnum-conductor python-magnumclient
+  214  apt-get update
+  215  DEBIAN_FRONTEND=noninteractive apt-get install magnum-api magnum-conductor python-magnumclient
+  216  apt-get update
+  217  ls
+  218  cd ..
+  219  cd home/
+  220  history > history1.txt
+  221  ls
+  222  cd fueladmin/
+  223  ls
+  224  cd ..
+  225  ls
+  226  cd home/
+  227  mkdir appoggio
+  228  cd appoggio/
+  229  git clone http://github.com/gaiaaa/appoggio.git
+  230  apt-get install git
+  231  git clone http://github.com/gaiaaa/appoggio.git
+  232  ls
+  233  cd appoggio/.git/
+  234  cd
+  235  cd ..
+  236  cd home/
+  237  mv history1.txt appoggio/appoggio/.git/
+  238  cd appoggio/appoggio/.git/
+  239  git add history1.txt 
+  240  cd ..
+  241  mv .git/history1.txt ./
+  242  la
+  243  ls
+  244  git add history1.txt 
+  245  git commit -m "add existing file"
+  246  git commit -m
+  247  git commit -m "fist commit"
+  248  git commit
+  249  git commit -m "add existing file"
+  250  git push
+  251  apt-get update 
+  252  DEBIAN_FRONTEND=noninteractive apt-get install magnum-api magnum-conductor python-magnumclient
+  253  apt-get install magnum
+  254  exit
+  255  cudet -e <ENV_ID>
+  256  exit
+  257  gpg --recv-keys BCE5CC461FA22B08
+  258  apt-key list
+  259  gpg -a --export BCE5CC461FA22B08 | apt-key add -
+  260  apt-key list
+  261  apt-get update
+  262  DEBIAN_FRONTEND=noninteractive apt-get install magnum-api magnum-conductor python-magnumclient
+  263  sudo apt-get update 
+  264  apt-get install software-properties-common
+  265  add-apt-repository cloud-archive:mitaka
+  266  apt-get update && apt-get dist-upgrade 
+  267  apt-get install python-openstackclient
+  268  DEBIAN_FRONTEND=noninteractive apt-get install magnum-api magnum-conductor python-magnumclient
+  269  ls
+  270  cd ..
+  271  cd etc/magnum/
+  272  less magnum.conf 
+  273  vi magnum.conf 
+  274  nano magnum.conf 
+  275  ps -e
+  276  top
+  277  su -s /bin/sh -c "magnum-db-manage upgrade" magnum
+  278  nano magnum.conf 
+  279  dmesg
+  280  ls -l
+  281  ls -la
+  282  su -s /bin/sh -c "magnum-db-manage upgrade" magnum
+  283  nano magnum.conf 
+  284  su -s /bin/sh -c "magnum-db-manage upgrade" magnum
+  285  nano magnum.conf 
+  286  service magnum-api restart
+  287  service magnum-conductor restart 
+  288  nano magnum.conf 
+  289  cd
+  290  cd ..
+  291  ls
+  292  cd home/
+  293  history > historycontrollerUnina.txt
+  294  ls
+  295  cd appoggio/
+  296  ls
+  297  cd ..
+  298  mv historycontrollerUnina.txt appoggio/appoggio/
+  299  cd appoggio/appoggio/
+  300  git add historycontrollerUnina.txt
+  301  git commit -m "add existing file"
+  302  git push -u origin master
+  303  cd
+  304  cd .
+  305  cd ..
+  306  nano magnum.conf 
+  307  cd etc/magnum/
+  308  nano magnum.conf 
+  309  su -s /bin/sh -c "magnum-db-manage upgrade" magnum
+  310  service magnum-api restart 
+  311  service magnum-conductor restart 
+  312  nano magnum.conf 
+  313  service magnum-api restart 
+  314  service magnum-conductor restart 
+  315  nano magnum.conf 
+  316  service magnum-api restart 
+  317  service magnum-conductor restart 
+  318  dmesg
+  319  cd ..
+  320  ls
+  321  cd var/log/
+  322  ls
+  323  less magnum/magnum-api.log 
+  324  cd
+  325  cd ..
+  326  locate horizon
+  327  locate horizon-staic
+  328  locate horizon-static
+  329  cd
+  330  less openrc 
+  331  openstack coe service list
+  332  openstack service list
+  333  openstack service list --os-username admin --os.aut-url http://192.168.101.2:5000/ --os-project-name admin --os-domain-name default
+  334  openstack service list --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --os-domain-name default
+  335  openstack coe service list --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --os-domain-name default
+  336  mysql -u root
+  337  openstack user create --domain default --password-prompt magnum
+  338  openstack user create --os-username admin --os-auth-url http://192.168.101.2 --os-project-name admin --os-domain-name default --domain default --password-prompt magnum
+  339  openstack user create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --domain default --password-prompt magnum
+  340  openstack user create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --password-prompt magnum
+  341  openstack role add --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --project service --user magnum
+  342  openstack role add --project service --user magnum
+  343  openstack role add --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --project service --user magnum
+  344  openstack role add --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --project admin --user magnum
+  345  openstack role add --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --project service --user magnum admin
+  346  openstack role add --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --project admin --user magnum admin
+  347  openstack project create --domain default --description "Service Project" service
+  348  openstack project create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --domain default --description "Service Project" service
+  349  openstack service create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --name magnum --descrption "OpenStack COntainer Infrastructure Management Service" container-infra
+  350  openstack service create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --name magnum --description "OpenStack COntainer Infrastructure Management Service" container-infra
+  351  openstack service list --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default
+  352  openstack service create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --region RegionOne container-infra public http://192.168.101.2:9511/v1
+  353  openstack endpoint create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --region RegionOne container-infra public http://192.168.101.2:9511/v1
+  354  openstack endpoint create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --region RegionOne container-infra --publicurl http://192.168.101.2:9511/v1
+  355  openstack service delete --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default 2192dafc039b41f6b03f17a6fd1ac25a
+  356  openstack service list --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default
+  357  openstack endpoint create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --region RegionOne container-infra --publicurl http://192.168.101.2:9511/v1
+  358  openstack endpoint create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --region RegionOne container-infra --publicurl http://192.168.101.2:9511/v1 public http://192.168.101.2/v1
+  359  openstack endpoint create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --region RegionOne container-infra --internalcurl http://192.168.101.2:9511/v1
+  360  openstack endpoint create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --region RegionOne container-infra --internalurl http://192.168.101.2:9511/v1
+  361  openstack endpoint create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --region RegionOne container-infra --publicurl http://192.168.101.2:9511/v1 --internalurl http://192.168.101.2:9511/v1
+  362  openstack endpoint create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --region RegionOne container-infra --publicurl http://192.168.101.2:9511/v1 --internalurl http://192.168.101.2:9511/v1 --adminurl http://192.168.101.2:9511/v1
+  363  openstack domain create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --description "Owns user and project created by magnum" magnum
+  364  export OS_IDENTITY_API_VERSION=3
+  365  openstack --help
+  366  openstack
+  367  openstack domain create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --description "Owns user and project created by magnum" magnum
+  368  openstack domain list --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default
+  369  openstack domain delete --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default magnum
+  370  openstack domain set --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --disable magnum
+  371  openstack domain list --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default
+  372  openstack domain delete --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default magnum
+  373  openstack domain list --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default
+  374  openstack domain create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --description "Owns user and project created by magnum" magnum
+  375  openstack domain list --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default
+  376  openstack user create --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --domain magnum --password-prompt magnum_domain_admin
+  377  openstack user list --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default
+  378  openstack role add --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default --domain magnum --user-domain magnum --user magnum_domain_admin admin
+  379  DEBIAN_FRONTEND=noninteractive apt-get install magnum-api magnum-conductor pyton-magnumclient
+  380  DEBIAN_FRONTEND=noninteractive apt-get install magnum-api magnum-conductor python-magnumclient
+  381  cd ..
+  382  cd etc/magnum/
+  383  gedit magnum.conf 
+  384  nano magnum.conf 
+  385  su -s /bin/sh -c "magnum-dbmanage upgrade" magnum
+  386  su -s /bin/sh -c "magnum-db-manage upgrade" magnum
+  387  service magnum-api restart 
+  388  service magnum-conductor restart 
+  389  openstack coe service listr
+  390  openstack coe service list
+  391  openstack
+  392  openstack help coe
+  393  nano magnum.conf 
+  394  service magnum-api restart 
+  395  openstack coe service list
+  396  cd
+  397  cd ..
+  398  openstack help coe
+  399  service magnum-conductor restart 
+  400  openstack help coe
+  401  openstack coe
+  402  export OS_IDENTITY_API_VERSION=3
+  403  openstack
+  404  openstack container service list
+  405  openstack coe
+  406  cd etc/magnum/
+  407  nano magnum.conf 
+  408  su -s /bin/sh -c "magnum-db-manage upgrade" magnum
+  409  nano magnum.conf 
+  410  su -s /bin/sh -c "magnum-db-manage upgrade" magnum
+  411  service magnum-api restart 
+  412  service magnum-conductor restart 
+  413  openstack coe
+  414  nano magnum.conf 
+  415  service magnum-api restart 
+  416  service magnum-conductor restart 
+  417  openstack coe
+  418  nano magnum.conf 
+  419  service magnum-api restart 
+  420  service magnum-conductor restart 
+  421  openstack coe
+  422  openstack domain list
+  423  openstack domain list --os-username admin --os-auth-url http://192.168.101.2:5000 --os-project-name admin --os-domain-name default
+  424  ls
+  425  nano magnum.conf 
+  426  service magnum-api restart 
+  427  service magnum-conductor restart 
+  428  openstack coe
+  429  nano magnum.conf 
+  430  service magnum-api restart 
+  431  service magnum-conductor restart 
+  432  openstack coe
+  433  cd
+  434  cd ..
+  435  apt-get update
+  436  sudo apt-get update
+  437  l
+  438  cd
+  439  cd ..
+  440  cd home/
+  441  ls
+  442  git clone https://github.com/openstack/horizon
+  443  git clone https://github.com/openstack/magnum-ui
+  444  cd horizon/
+  445  python tools/install_venv.py
+  446  cd tools/
+  447  ls
+  448  cd ..
+  449  ls
+  450  cd ..
+  451  ls
+  452  cd horizon/
+  453  ls
+  454  cd tools/
+  455  ls
+  456  ls -la
+  457  cd ..
+  458  ls
+  459  cd ..
+  460  ls
+  461  cd ..
+  462  ls
+  463  locate horizon
+  464  locate install_venv.py
+  465  cd
+  466  locate install_venv.py
+  467  cd
+  468  ls
+  469  cd ..
+  470  ls
+  471  cd home/
+  472  ls
+  473  locate install_venv.py
+  474  cd magnum-ui/tools/
+  475  python install_venv.py 
+  476  cd
+  477  cd ..
+  478  ls
+  479  cd usr/src/
+  480  ls
+  481  cd ..
+  482  locate horizon
+  483  cd var/lib/openstack-dashboard/
+  484  ls
+  485  cd static/horizon/
+  486  ls
+  487  cd ..
+  488  cd
+  489  cd ..
+  490  cd usr/lib/python2.7/
+  491  ls
+  492  cd dist-packages/
+  493  cd horizon
+  494  ls
+  495  locate install_venv.py
+  496  cd
+  497  cd ..
+  498  ls
+  499  cd home/
+  500  cd magnum-ui/
+  501  ls
+  502  cd ..
+  503  cd horizon/
+  504  ls
+  505  cd tools/
+  506  ls
+  507  cd
+  508  sudo apt-get install python-magnumclient
+  509  openstack help coe
+  510  cd ..
+  511  cd home/horizon/tools/
+  512  cd ..
+  513  cd magnum-ui/tools/
+  514  python install_venv.py 
+  515  cd ..
+  516  ls
+  517  cd horizon/
+  518  ls
+  519  cd openstack_dashboard/local/local_settings.py.example openstack_dashboard/local/local_settings.py
+  520  cd ..
+  521  git remote rm horizon
+  522  enable_plugin magnum-ui https://github.com/openstack/magnum-ui
+  523  git clone https://github.com/openstack/magnum-ui
+  524  rm magnum-ui/
+  525  cd
+  526  git clone https://github.com/openstack/horizon
+  527  cd ..
+  528  cd home/
+  529  rmdir horizon/
+  530  cd
+  531  git clone https://github.com/openstack/magnum-ui
+  532  cd horizon/
+  533  ls
+  534  cd
+  535  cd ..
+  536  cd var/lib/openstack-dashboard/
+  537  ls
+  538  cd static/
+  539  ls
+  540  cd
+  541  cd horizon/
+  542  cp openstack_dashboard/local/local_settings.py.example openstack_dashboard/local/local_settings.py
+  543  cd openstack_dashboard/local
+  544  nano local_settings.py
+  545  tools/with_venv.sh pip install -e ../magnum-ui/
+  546  cd ..
+  547  ls
+  548  cd ..
+  549  cd tools/
+  550  ls
+  551  cd ..
+  552  cd magnum-ui/tools/
+  553  ls
+  554  with_venv.sh install -e ../magnum-ui
+  555  cd ..
+  556  with_venv.sh install -e ../magnum-ui/
+  557  tools/with_venv.sh install -e ../magnum-ui/
+  558  tools/with_venv.sh pip install -e ../magnum-ui/
+  559  python tools/wigh_venv.sh
+  560  ls
+  561  cd tools/
+  562  ls
+  563  ls -l with_venv.sh 
+  564  cd ..
+  565  ./tools/with_venv.sh pip install -e ../magnum-ui/
+  566  cd tools/
+  567  ./with_venv.sh 
+  568  cd
+  569  cd horizon/openstack_dashboard/local
+  570  nano local_settings.py
+  571  cd
+  572  cd magnum-ui/tools/
+  573  ./with_venv.sh 
+  574  cd
+  575  cd magnum-ui/tools/
+  576  ls
+  577  python install_venv_common.py 
+  578  python install_venv.py 
+  579  apt-get install python-dev
+  580  python install_venv.py 
+  581  cd ..
+  582  tools/with_venv.sh pip install -e ../magnum-ui/
+  583  cp ../magnum-ui/magnum_ui/enabled/_1370_project_container_infra_panel_group.py openstack_dashboard/local/enabled
+  584  cd
+  585  cp magnum-ui/magnum_ui/enabled/_1370_project_container_infra_panel_group.py horizon/openstack_dashboard/local/enabled/
+  586  cp magnum-ui/magnum_ui/enabled/_1371_project_container_infra_clusters_panel.py horizon/openstack_dashboard/local/enabled/
+  587  cp magnum-ui/magnum_ui/enabled/_1372_project_container_infra_cluster_templates_panel.py horizon/openstack_dashboard/local/enabled/
+  588  python magnum-ui/manage.py runserver 0.0.0.0:8080
+  589  python magnum-ui/manage.py runserver 127.0.0.1:8080
+  590  python magnum-ui/manage.py runserver 143.225.229.195:8080
+  591  cd horizon/openstack_dashboard/local/
+  592  nano local_settings.
+  593  nano local_settings.py
+  594  cd
+  595  python magnum-ui/manage.py runserver 143.225.229.195:8080
+  596  python magnum-ui/manage.py runserver 127.0.0.1:8080
+  597  python magnum-ui/manage.py runserver 0.0.0.0:8080
+  598  locate django
+  599  python magnum-ui/manage.py runserver 0.0.0.0:8080
+  600  python magnum-ui/manage.py runserver
+  601  cd magnum-ui/magnum_ui
+  602  ls
+  603  cd ..
+  604  ls
+  605  cd
+  606  locate DjangoProjects
+  607  locate mysite
+  608  ls
+  609  mkdir test
+  610  cd test/
+  611  virtualenv testing
+  612  source testing/bin/activate
+  613  pip install django
+  614  cd
+  615  exit
+  616  pip install django
+  617  apt-get install python-pip
+  618  ls
+  619  rmdir test/
+  620  rm -r test/
+  621  ls
+  622  python magnum-ui/manage.py runserver
+  623  python3 -V
+  624  apt-get install python3-pip
+  625  python magnum-ui/manage.py runserver
+  626  locate manage.py
+  627  cd /usr/lib/python2.7/dist-packages/django/conf/project_template/manage.py
+  628  cd /usr/lib/python2.7/dist-packages/django/conf/project_template/
+  629  python manage.py runserver
+  630  cd
+  631  python magnum-ui/manage.py runserver
+  632  magnum bay-list
+  633  magnum bay-list --os-username admin
+  634  magnum bay-list --os-username magnum
+  635  magnum bay-list
+  636  python magnum-ui/manage.py runserver
+  637  locate setting.py
+  638  locate settings.py
+  639  python magnum-ui/manage.py runserver
+  640  grep ALLOWED_HOSTS
+  641  grep "ALLOWED_HOSTS"
+  642  CD ..
+  643  cd ..
+  644  grep "ALLOWED_HOSTS" "*"
+  645  grep "ALLOWED_HOSTS" *
+  646  grep ALLOWED_HOSTS *
+  647  grep "ALLOWED_HOSTS" "etc/"
+  648  grep ALLOWED_HOSTS etc/
+  649  grep ALLOWED_HOSTS
+  650  python magnum-ui/manage.py runserver
+  651  cd
+  652  python magnum-ui/manage.py runserver
+  653  cd magnum-ui/tools/
+  654  ls
+  655  cd ..
+  656  tools/with_venv.sh pip install -e ../magnum-ui/
+  657  cd
+  658  cd ..
+  659  locate openstack_dashboard
+  660  cd ..
+  661  ls
+  662  cp root/magnum-ui/magnum_ui/enabled/_1370_project_container_infra_panel_group.py usr/share/openstack-dashboard/openstack_dashboard/local/enabled/
+  663  cp root/magnum-ui/magnum_ui/enabled/_1371_project_container_infra_clusters_panel.py usr/share/openstack-dashboard/openstack_dashboard/local/enabled/
+  664  cp root/magnum-ui/magnum_ui/enabled/_1372_project_container_infra_cluster_templates_panel.py usr/share/openstack-dashboard/openstack_dashboard/local/enabled/
+  665  python root/magnum-ui/manage.py runserver
+  666  --settings
+  667  locate django/conf
+  668  cd usr/share/python-django-common/django/
+  669  ls
+  670  cd conf/
+  671  ls
+  672  cd locale/
+  673  ls
+  674  cd ..
+  675  find settings.py
+  676  find -f settings.py
+  677  find django/ -name settings.py
+  678  cd ..
+  679  find python-django-common/ -name settings.py
+  680  cd
+  681  python magnum-ui/manage.py runserver
+  682  grep "ALLOWED_HOSTS" *.py
+  683  grep -w "ALLOWED_HOSTS" *.py
+  684  cd /usr/lib/python2.7/dist-packages/django/conf/
+  685  ls
+  686  nano global_settings.py
+  687  cd
+  688  python magnum-ui/manage.py runserver
+  689  python magnum-ui/manage.py runserver 0.0.0.0:8080
+  690  cd magnum-ui/magnum_ui
+  691  ls
+  692  cd ..
+  693  ls
+  694  tools/with_venv.sh ./manage.py runserver
+  695  tools/with_venv.sh ./manage.py runserver 0.0.0.0.:8080
+  696  cd
+  697  cd horizon/
+  698  cd tools/
+  699  ls
+  700  cd ..
+  701  ls
+  702  cd ..
+  703  magnum-ui/tools/with_venv.sh horizon/manage.py runserver
+  704  magnum-ui/tools/with_venv.sh horizon/manage.py runserver 0.0.0.0:8080
+  705  magnum-ui/tools/with_venv.sh horizon/manage.py runserver 0.0.0.0:8085
+  706  magnum-ui/tools/with_venv.sh horizon/manage.py runserver 143.225.229.195:8085
+  707  cd ..
+  708  cd etc/magnum/
+  709  ls
+  710  nano magnum.conf
+  711  su -s /bin/sh -c "magnum-db-manage upgrade" magnum
+  712  service magnum-api restart 
+  713  service magnum-conductor 
+  714  service magnum-conductor restart 
+  715  openstack coe
+  716  magnum
+  717  magnum pod-create
+  718  cd
+  719  magnum baymode-create --name k8sbaymodel --image-id Debian --keypair-id keyProva --external-network-id public -dns-nameserver 8.8.8.8 --flavor-id m1.medium --docker-volume-size 5 -network-driver flannel -tls-disabled --coe kubernetes
+  720  magnum baymodel-create --name k8sbaymodel --image-id Debian --keypair-id keyProva --external-network-id public -dns-nameserver 8.8.8.8 --flavor-id m1.medium --docker-volume-size 5 -network-driver flannel -tls-disabled --coe kubernetes
+  721  magnum baymodel-create --name k8sbaymodel --image-id Debian --keypair-id keyProva --external-network-id public --dns-nameserver 8.8.8.8 --flavor-id m1.medium --docker-volume-size 5 --network-driver flannel --tls-disabled --coe kubernetes
+  722  magnum baymodel-create --os-username magnum  --name k8sbaymodel --image-id Debian --keypair-id keyProva --external-network-id public --dns-nameserver 8.8.8.8 --flavor-id m1.medium --docker-volume-size 5 --network-driver flannel --tls-disabled --coe kubernetes
+  723  magnum baymodel-create --os-username magnum --name k8sbaymodel --image-id Debian --keypair-id keyProva --external-network-id public --dns-nameserver 8.8.8.8 --flavor-id m1.medium --docker-volume-size 5 --network-driver flannel --tls-disabled --coe kubernetes
+  724  magnum baymodel-create --os-username admin --name k8sbaymodel --image-id Debian --keypair-id keyProva --external-network-id public --dns-nameserver 8.8.8.8 --flavor-id m1.medium --docker-volume-size 5 --network-driver flannel --tls-disabled --coe kubernetes
+  725  magnum baymodel-create --name k8sbaymodel --image-id Debian --keypair-id keyProva --external-network-id public --dns-nameserver 8.8.8.8 --flavor-id m1.medium --docker-volume-size 5 --network-driver flannel --tls-disabled --coe kubernetes
+  726  magnum baymodel-create --name k8sbaymodel --image-id Debian --keypair-id keyProva --external-network-id public --dns-nameserver 8.8.8.8 --flavor-id m1.medium --docker-volume-size 5 --network-driver flannel --tls-disabled --coe kubernetes --os-username admin
+  727  magnum baymodel-create --name k8sbaymodel --image-id Debian --keypair-id keyProva --external-network-id public --dns-nameserver 8.8.8.8 --flavor-id m1.medium --docker-volume-size 5 --network-driver flannel --tls-disabled --coe kubernetes --os-username magnum
+  728  magnum bay-list
+  729  ./openrc 
+  730  magnum bay-list
+  731  magnum baymodel-create --os-domain-name default --os-username admin --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --name k8sbaymodel --image-id Debian --keypair-id keyProva --external-network-id public --dns-nameserver 8.8.8.8 --flavor-id m1.medium --docker-volume-size 5 --network-driver flannel --tls-disabled --coe kubernetes
+  732  magnum baymodel-create --os-username magnum --os-auth-url http://192.168.101.2:5000/ --os-project-name admin --name k8sbaymodel --image-id Debian --keypair-id keyProva --external-network-id public --dns-nameserver 8.8.8.8 --flavor-id m1.medium --docker-volume-size 5 --network-driver flannel --tls-disabled --coe kubernetes
+  733  magnum help
+  734  magnum --magnum-api-version
+  735  magnum --magnum-api-version api
+  736  ./openrc 
+  737  ping 192.168.1.132
+  738  ssh ubuntu@192.168.1.132
+  739  ls
+  740  cd ..
+  741  cd home/appoggio/
+  742  ls
+  743  cd appoggio/
+  744  history > historynuovo.txt
+  745  git add historynuovo.txt 
+  746  git commit -m "add existing file"
+  747  git push -u origin master
+  748  cd
+  749  cd ..
+  750  cd usr/share/openstack-dashboard/
+  751  ls
+  752  cd ..
+  753  ls
+  754  cd
+  755  cd ..
+  756  ls
+  757  cd usr/
+  758  ls
+  759  cd share/
+  760  ls
+  761  cd ..
+  762  exit
+  763  openstack image create ubuntu-murano --disk-format qcow2
+  764  $ openstack image create ubuntu-murano --disk-format qcow2
+  765  openstack image create ubuntu-murano --disk-format qcow2 
+  766  openstack image create ubuntu-murano --disk-format qcow2 
+  767  openstack image create ubuntu-murano --disk-format qcow2 
+  768  openstack image create ubuntu-murano --disk-format qcow2 --container-format bare --file ubuntu-murano-agent.qcow2  --property murano_image_info='{"title": "Ubuntu for Murano", "type": "linux"}'
+  769  glance
+  770  openstack image create ubuntu-murano --disk-format qcow2 --container-format bare --file ubuntu-murano-agent.qcow2  --property murano_image_info='{"title": "Ubuntu for Murano", "type": "linux"}'
+  771  openstack
+  772  openstack image create ubuntu-murano --disk-format qcow2 --container-format bare --file ubuntu-murano-agent.qcow2  --property murano_image_info='{"title": "Ubuntu for Murano", "type": "linux"}'
+  773  openstack login
+  774  openstack image create ubuntu-murano --disk-format qcow2 --container-format bare --file ubuntu-murano-agent.qcow2  --property murano_image_info='{"title": "Ubuntu for Murano", "type": "linux"}'
+  775  source openrc 
+  776  openstack login
+  777  openstack image create ubuntu-murano --disk-format qcow2 --container-format bare --file ubuntu-murano-agent.qcow2  --property murano_image_info='{"title": "Ubuntu for Murano", "type": "linux"}'
+  778  ls
+  779  cd ..
+  780  cd home/appoggio/appoggio/
+  781  history > historyglance.txt
